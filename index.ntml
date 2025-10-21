@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>NES Emulator</title>
+  <style>
+    body { background: #111; color: white; font-family: sans-serif; text-align: center; margin: 0; }
+    h1 { padding: 1rem; }
+    iframe { width: 100vw; height: 90vh; border: none; }
+  </style>
+</head>
+<body>
+  <h1>NES Emulator</h1>
+  <iframe src="emulator/index.html"></iframe>
+</body>
+</html>
