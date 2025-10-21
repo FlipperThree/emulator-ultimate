@@ -1,16 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>NES Emulator</title>
+  <title>NESBox Emulator</title>
   <style>
-    body { background: #111; color: white; font-family: sans-serif; text-align: center; margin: 0; }
-    h1 { padding: 1rem; }
-    iframe { width: 100vw; height: 90vh; border: none; }
+    body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #000;
+    }
+    iframe {
+      border: none;
+      width: 800px;  /* You can adjust the size */
+      height: 600px; /* You can adjust the size */
+    }
   </style>
 </head>
 <body>
-  <h1>NES Emulator</h1>
-  <iframe src="emulator-ultimate/index.html"></iframe>
+  <iframe src="https://flipperthree.github.io/emulator-ultimate/index.html"></iframe>
 </body>
 </html>
